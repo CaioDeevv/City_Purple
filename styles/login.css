@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(
+    180deg, black, #651ab5
+    );
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.padding {
+    width: 450px;
+    height: 600px;
+    background-image: linear-gradient(
+    45deg, black, #1C1C1C
+    );
+    border: 2px solid #572ba3;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+h1 > .purple {
+    color: #6939bd;
+}
+
+.title > h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+form > input {
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #572ba3;
+    background-color: transparent;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+input::placeholder {
+    color: white;
+    text-transform: uppercase;
+}
+
+#btn-cadastro {
+    background-color: #572ba3;
+    color: white;
+    cursor: pointer;
+}
+
+.singin {
+    margin-top: -40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.singin > a {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    text-decoration: underline;
+    color: #336AEA;
+}
